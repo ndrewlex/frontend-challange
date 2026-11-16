@@ -1,0 +1,11 @@
+node_modules
+dist
+.next
+coverage
+*.tsbuildinfo
+.DS_Store
+
+# Never commit secrets or company material
+.env
+.env.*
+*.pem

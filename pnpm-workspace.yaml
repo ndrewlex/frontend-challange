@@ -1,0 +1,6 @@
+packages:
+  - daily
+  - packages/*
+  # Added when each project is scaffolded:
+  # - weekly/*
+  # - monthly/*

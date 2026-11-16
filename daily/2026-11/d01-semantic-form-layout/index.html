@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>d01 · Create account</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header><h1>Create account</h1></header>
+
+    <main>
+      <form>
+        <div class="field">
+          <label for="full-name">Full Name</label>
+          <input id="full-name" type="text" name="full-name" placeholder="Full Name" />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="Email" />
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" type="password" name="password" placeholder="Password" />
+        </div>
+        <div class="field">
+          <label for="country">Country</label>
+          <select name="country" id="country" placeholder="Country">
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+            <option value="uk">United Kingdom</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="terms" class="checkbox">
+            <input id="terms" type="checkbox" name="terms" />
+            <span>I agree to the terms and conditions</span>
+          </label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>© 2026 Your Company. All rights reserved.</p>
+    </footer>
+    <!-- TODO: header / main / footer, then the card with the form -->
+  </body>
+</html>
